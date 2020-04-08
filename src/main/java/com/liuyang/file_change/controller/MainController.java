@@ -6,7 +6,6 @@ import com.liuyang.file_change.entity.Cache;
 import com.liuyang.file_change.entity.FileEntity;
 import com.liuyang.file_change.entity.Menu;
 import com.liuyang.file_change.util.JsonUtil;
-import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.CollectionUtils;
@@ -39,7 +38,6 @@ public class MainController {
     private String menuPath;
 
     private static final String ENCODE = "UTF-8";
-    public static final Logger logger = Logger.getLogger(MainController.class);
 
     @PostMapping("/upload")
     public boolean upload(@RequestParam(value = "file", required = false) MultipartFile[] files,
