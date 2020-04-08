@@ -1,0 +1,5 @@
+server:
+    port: 8090
+menuPath: menu
+filePath: /home/filechange/filepath
+tomcatCache: /home/filechange/tomcatcache

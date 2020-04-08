@@ -1,0 +1,5 @@
+server:
+  port: 8090
+menuPath: menu
+filePath: E:\onlyme\project\testFile
+tomcatCache: E:\onlyme\project\tomcatcache
